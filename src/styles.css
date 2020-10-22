@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  header {
+    background-color: rgb(173, 240, 182);
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    padding: 0 50px;
+    height: 10%;
+  }
+  
+ 
+  
+  main {
+    min-height: 80%;
+    display: flex;
+  }
+  
+  
+  .box-principal {
+    width: 700px;
+    height: 700px;
+    border: 1px solid grey;
+    border-radius: 25px
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  
+ 
+
+ 
