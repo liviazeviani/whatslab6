@@ -1,30 +1,28 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import './App.css';
+import InputMensagem from './Components/inputMensagem/InputMensagem'
+import styled from 'styled-components'
 
+const Container = styled.div`
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    
+    margin: 0 auto;
+    border: 1px solid black;
+    background: linear-gradient(
+    to left,
+    rgba(7,27,82,1) 0%,
+    rgba(0,128,120,1)100%
+  );
+  `
 
-
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <div className="header">
-        <header>
-          <h1>WhatsLab</h1>
-        </header>
-
-        <main>
-          
-
-      
-
-          <section className="box-principal">
-
-          </section>
-        </main>
-
-       
-      </div>
-    </div>
+    <Container className="App">
+      <InputMensagem />
+    </Container>
   );
 }
 
-
+export default App;
